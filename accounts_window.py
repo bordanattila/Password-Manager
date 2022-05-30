@@ -47,7 +47,7 @@ class AccountsWindow:
 
         # ---------------------------- Select Account ------------------------------- #
 
-    def selected_account(self):
+    def selected_account(self, *args):
         global match
         account_index = self.listbox.curselection()
         user_select = account_index[0]
